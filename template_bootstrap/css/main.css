@@ -166,7 +166,7 @@ header .buttom {
 .top_mnu a {
 	color: #fff;
 	font-family: 20px;
-	padding: 0 26px 0 48px;
+	padding: 0 26px 0 54px;
 	display: block;
 	line-height: 62px;
 	border-left: #383838 1px solid;
@@ -195,4 +195,27 @@ header .buttom {
 }
 .top_mnu li:nth-child(6) a {
 	    background-position: 17px -373px;
+}
+.waranty {
+	border: 3px solid #fff;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	font-size: 15px;
+	padding: 3px 5px;
+	line-height: 18px;
+}
+.w_left {
+	font-family: BebasBold;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.w_left span {
+	font-size: 34px;
+}
+.w_left,
+.w_right {
+	display: inline-block;
+	vertical-align: top;
 }
