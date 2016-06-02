@@ -127,6 +127,12 @@ header h1 {
 	padding: 0 25px;
 	border-bottom: #AC160A 4px solid;
 	}
+.buttom:hover {
+	background-color: #e64437;
+}
+.buttom:active {
+	background-color: #b81609;
+}
 header .buttom {
 	margin-right: 20px;
 }
@@ -134,4 +140,13 @@ header .buttom {
 	line-height: 18px;
 	padding-top: 7px;
 	text-align: left;
+	padding-left: 63px;
+	background-image: url(../img/camera_icon.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+.butoom_tops {
+	position: absolute;
+	width: 100%;
+	bottom: 32px;
 }
