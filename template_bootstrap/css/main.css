@@ -265,3 +265,34 @@ section h2 {
 	margin-left: 17px;
 	background-position: -50px 0;
 }
+.mc_item {
+	border: #353535 1px solid;
+	border-radius: 2px;
+	width: 156px;
+}
+.mc_item_wrap {
+	margin-left: 30px;
+	display: inline-block;
+	text-align: center;
+	width: 156px;
+}
+.mc_wrap {
+	text-align: center;
+	
+}
+.mc_item_wrap a {
+	color: 	#fff;
+}
+.mc_item span {
+	display: block;
+	height: 85px;
+	width: 134px;
+	background-image: url(../img/cets_iconsets.png);
+	margin: 10px auto;
+}
+.mc_item_wrap:nth-chikd(1) span {
+	background-position: 9px 0;
+}
+.mc_item_wrap:nth-chikd(2) span {
+	background-position: 9px 0;
+}
