@@ -268,7 +268,7 @@ section h2 {
 .mc_item {
 	border: #353535 1px solid;
 	border-radius: 2px;
-	width: 156px;
+	width: 160px;
 }
 .mc_item_wrap {
 	margin-left: 30px;
@@ -321,6 +321,7 @@ section h2 {
  .mc_item_wrap.active h4 {
 	text-decoration: underline;
 }
-.mc_item_wrap.active {
+.mc_item_wrap.active,
+ .mc_item_wrap:hover {
 	background-color: #2A2A2A;
 }
