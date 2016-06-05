@@ -274,11 +274,14 @@ section h2 {
 	margin-left: 30px;
 	display: inline-block;
 	text-align: center;
-	width: 156px;
+	width: 160px;
+}
+.mc_item_wrap:ntn-child(1) {
+	margin-left: 0;
 }
 .mc_wrap {
 	text-align: center;
-	
+	padding: 0;
 }
 .mc_item_wrap a {
 	color: 	#fff;
@@ -288,11 +291,36 @@ section h2 {
 	height: 85px;
 	width: 134px;
 	background-image: url(../img/cets_iconsets.png);
-	margin: 10px auto;
+	margin: 15px auto 10px;
 }
-.mc_item_wrap:nth-chikd(1) span {
-	background-position: 9px 0;
+.mc_item_wrap:nth-child(1) span {
+	background-position: 1px 0;
 }
-.mc_item_wrap:nth-chikd(2) span {
-	background-position: 9px 0;
+.mc_item_wrap:nth-child(2) span {
+	background-position: -153px 0;
+}
+.mc_item_wrap:nth-child(3) span {
+	background-position: -305px 0;
+}
+.mc_item_wrap:nth-child(4) span {
+	background-position: -468px 0;
+}
+.mc_item_wrap:nth-child(5) span {
+	background-position: -614px 0;
+}
+.mc_item_wrap:nth-child(6) span {
+	background-position: -772px 0;
+}
+.mc_item h4 {
+	font-family: "BebasBold";
+	font-size: 20px;	
+	font-weight: normal;
+	margin-top: 10px;
+}
+.mc_item a:hover h4,
+ .mc_item_wrap.active h4 {
+	text-decoration: underline;
+}
+.mc_item_wrap.active {
+	background-color: #2A2A2A;
 }
