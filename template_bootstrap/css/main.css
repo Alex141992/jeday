@@ -363,11 +363,12 @@ body .mc_wrap .mc_item_wrap > ul {
 .mc_item_wrap.active > ul li a:hover {
 	text-decoration: none;	
 }
-.mc_item_wrap::after {
+.mc_item_wrap_af {
 	width: 18px;
 	height: 9px;
 	content: "";
 	background-image: url(../img/mc_chilgrenarrow.png);
 	position: absolute;
-	margin: 16px -10px;	
+	margin: 16px 69px;
+	display: none;	
 }

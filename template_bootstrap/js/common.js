@@ -1,7 +1,10 @@
 $(document).ready(function() {
-
+	<div class='mc_item_wrap_af'></div>	
+	$(".mc_item_wrap ul").each()
 	$(".mc_toggle").click(function() {
-		$(this).parent().parent().children("ul").slideToggle();
+		$("body .mc_item_wrap >ul, .mc_item_wrap_af").hide();
+		$(this).parent().parent().children("ul").show();
+		$(this).parent().parent().children(".mc_item_wrap_af").show(0);
 	});
 
 	//Цели для Яндекс.Метрики и Google Analytics
