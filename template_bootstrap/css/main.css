@@ -117,7 +117,7 @@ header h1 {
 	text-shadow: 0 3px rgba(0,0,0,0.55);
 	font-family: "BebasRegular";
 	}
-.buttom {
+.button {
 	display: inline-block;
 	height: 50px;
 	background-color: #d12f22;
@@ -126,17 +126,19 @@ header h1 {
 	line-height: 50px;
 	padding: 0 25px;
 	border-bottom: #AC160A 4px solid;
+	color: #fff;
+	font-family: "BebasBold";
 	}
-.buttom:hover {
+.button:hover {
 	background-color: #e64437;
 }
-.buttom:active {
+.button:active {
 	background-color: #b81609;
 }
-header .buttom {
+header .button {
 	margin-right: 20px;
 }
-.st_battom {
+.st_batton {
 	line-height: 18px;
 	padding-top: 7px;
 	text-align: left;
@@ -145,7 +147,7 @@ header .buttom {
 	background-repeat: no-repeat;
 	background-position: 8px 8px;
 }
-.butoom_tops {
+.button_tops {
 	position: absolute;
 	width: 100%;
 	bottom: 32px;
@@ -228,7 +230,7 @@ header .buttom {
 }
 .main_cats {
 	background-color: #191919;
-	padding: 20px 0 32px;
+	padding: 20px 0 40px;
 }
 .main_cats h2 {
 	text-transform: uppercase;
@@ -359,7 +361,8 @@ body .mc_wrap .mc_item_wrap > ul {
 	position: absolute;	
 	padding: 15px 0;
 	list-style-type: none;
-	left: 126px;
+	left: 125px;
+	display: none;
 }
 .mc_item_wrap.active > ul li a:hover {
 	text-decoration: none;	
@@ -372,4 +375,8 @@ body .mc_wrap .mc_item_wrap > ul {
 	position: absolute;
 	margin: 16px 69px;
 	display: none;	
+}
+.mc_button_w {
+	text-align: center;
+	margin-top: 30px;
 }
